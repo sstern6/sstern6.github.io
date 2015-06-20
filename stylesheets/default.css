@@ -1,0 +1,112 @@
+*{
+  background-color:#EDEAED;
+  font-family:lucida console;
+
+}
+
+header{
+  text-align: center;
+  background-color: #aaf0d1;
+}
+
+img{
+  position: static;
+}
+
+a{
+  color:black;
+}
+
+a:hover{
+  color:#A5EAED;
+  background-color: #aaf0d1;
+}
+
+a:linked{
+  color: #A5EAA9;
+  background-color: #EDEAED;
+
+}
+
+nav{
+  display:inline-block;
+
+}
+
+#a{
+  text-align: center;
+  width: 90px;
+  height: 25px;
+  border:2px solid black;
+  border-top: 2px solid black;
+  margin-left:23em ;
+  margin-top:4.9em;
+  right:3em;
+}
+
+#b{
+  text-align: center;
+  width: 90px;
+  height: 25px;
+  border:2px solid black;
+  margin-left: 32em;
+  margin-top: -2.695em;
+  right:3em;
+}
+
+
+#c{
+  text-align: center;
+  width: 90px;
+  height: 25px;
+  border:2px solid black;
+  margin-left: 41em;
+  margin-top: -2.72em;
+}
+
+#d{
+  text-align: center;
+  width: 90px;
+  height: 25px;
+  border:2px solid black;
+  float:right;
+  margin-top: -2.8em;
+  margin-right: -9.5em;
+}
+
+#e{
+  text-align: center;
+  width: 100px;
+  height: 25px;
+  border:2px solid black;
+  float: right;
+  margin-top: -2.7em;
+  margin-right:-20em ;
+
+}
+
+#git{
+  display: inline-block;
+  margin-left:18em;
+  margin-top:8em;
+  border: 1px black solid;
+
+
+}
+
+#in{
+  display: inline-block;
+  margin-left:18em;
+  margin-top:5em;
+  border: 1px black solid;
+
+}
+
+#twitter{
+  display: inline-block;
+  margin-left:20em;
+  margin-top:5em;
+  border: 1px black solid;
+
+}
+
