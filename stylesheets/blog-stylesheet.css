@@ -70,7 +70,7 @@ a:hover{
 }
 
 
-a:linked{
+a:link{
   color:#aaf0d1;
   background-color:#EDEAED;
 
@@ -79,4 +79,12 @@ a:linked{
 #blog2{
   top:10px;
 
+}
+
+h3:hover{
+  color:#aaf0d1;
+}
+
+footer a:hover{
+  color:#aaf0d1
 }
