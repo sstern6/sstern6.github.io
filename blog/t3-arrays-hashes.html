@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<head>
+  <title>Arrays vs. Hashes</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="your-stylesheet-link-here.css">
+</head>
+
+<main>
+  <h1>Arrays Vs. Hashes : Who will win?</h1>
+  <h4>6/26/2015</h4>
+
+  <section>
+    <p>
+      A major problem in ruby is whether or not you should use an array vs when you should use a hash(especially for beginners).  Your first question probably is, "well what's an array and what's a hash?".
+      Arrays essentially hold buckets of any type of data, this means it can hold a string, integer, or anything else you can think of in ruby. Arrays are also zero-indexed and integer ordered.  WHAT DOES THAT MEAN!? That means the values with in an array each have a unique number associated with them, but the first piece of data is at position zero, then follow with 1 to ####.  For example, if we have a basic array called array, it can look like this:<br><br>
+
+        array = ["Hi",1, 3, 4]</br></br>
+
+      As I was explaining before about the zero index rule, the value "Hi" in this array will be at position zero.  So, if I wanted to call that value I would have to say, "Hey Array! I want the thing is position zero".  You do that in ruby like this:<br><br>
+
+      array[0]</br></br>
+
+      Pretty easy right?!
+
+    </p>
+    Hashes are a different story.  Hashes are essentially a data structure that is a collection of key and value pairs, but it is NOT integer indexed.  The way you call for a value is call the key associated with that value.  Values in a hash can be identitical, but the keys cannot be the same:<br><br>
+
+    hash = {<br>
+      :name => "Scott",<br>
+      :greeting = > "Hello",<br>
+      :nick_name => "Scott"<br>
+
+  }</br></br>
+
+    As you can see, this is a basic hash that has different key's but has one value that's the same in two if the key's, "Scott".
+
+    <p>
+      Now that you know a little bit about arrays and hashes, it's time to figure out when to use one or the other.  In my opinion, it seems like you would want to use a hash instead of an array if you needed your data to have a specific label, like a name or an address.  With this in mind if your data did need a label, it would be much easier and faster for you to create a hash. However, if order matters for your data it would be wise to use an array because of its indexed nature.
+    </p>
+
+
+
+    <p>
+      I hope you learned something reading this blog post!
+    </p>
+
+    <p>
+      Thanks for reading!
+
+      -Scott
+    </p>
+
+  </section>
+</main>
