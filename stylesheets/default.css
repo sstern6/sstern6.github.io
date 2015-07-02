@@ -4,6 +4,8 @@
 
 }
 
+
+
 header{
   text-align: center;
   background-color: #aaf0d1;
@@ -13,26 +15,16 @@ img{
   position: static;
 }
 
-a{
-  color:black;
+
+nav{
+    position: relative;
+    text-align: center;
+    color:#000000;
+
 }
 
 a:hover{
-  color:#abb8b8;
-}
-
-a:linked{
-  color: #A5EAA9;
-  background-color: #EDEAED;
-
-}
-
-nav{
-    margin-left: 20em;
-    width: 60%;
-    position: relative;
-
-
+ color:#a8a8a8;
 }
 
 #a{
@@ -79,13 +71,13 @@ nav{
 footer{
   margin-top: 20em;
   text-align: center;
-
 }
 
 #git{
   display: inline-block;
   border: 1px black solid;
-  margin-right:15em;
+  margin-right:5em;
+
 
 
 }
@@ -94,7 +86,7 @@ footer{
   display: inline-block;
 
   border: 1px black solid;
-  margin-right:15em;
+  margin-right:5em;
 
 }
 
