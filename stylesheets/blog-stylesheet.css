@@ -9,7 +9,7 @@ header{
 }
 
 h3{
-margin-left: 9em;
+/*margin-left: 9em;*/
 margin-top: 5em;
 
 
@@ -24,7 +24,7 @@ main h5{
   margin-top: 40px;
 }
 
-img{
+/*img{
   position:absolute;
   margin-top: -40px;
   border: 1px black solid;
@@ -34,10 +34,8 @@ main img img{
   position:absolute;
   margin-top: -10px;
   border: 1px black solid;
-
-
 }
-
+*/
 footer a:hover{
   color:#aaf0d1
 }
@@ -85,10 +83,6 @@ a:link{
 
 }
 
-#blog2{
-  top:10px;
-
-}
 
 
 
