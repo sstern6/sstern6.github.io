@@ -1,0 +1,40 @@
+*{
+  background-color:#EDEAED;
+  font-family:lucida console;
+  color:#000000;
+  position: relative;
+}
+
+a{
+  text-decoration: none;
+}
+
+h3:visited{
+  color: #aaf0d1;
+}
+
+h3:hover{
+ color:#a8a8a8;
+}
+
+h3:linked{
+  color:#aaf0d1;
+}
+
+h1 {
+  text-align: center;
+}
+
+
+h3 {
+  text-align: center;
+  margin-top:5em;
+
+
+}
+
+#git{
+
+
+}
+
