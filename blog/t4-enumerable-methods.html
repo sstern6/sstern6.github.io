@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<head>
+  <title></title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="../stylesheets/blog.css">
+</head>
+
+<main>
+  <h1>Technical Blog : Enumerable#Cycle</h1>
+  <h4>7/12/2015</h4>
+
+  <section>
+    <p>
+      This week I'll be explaining a little bit about  an enumerable, specifically, the Enumerable#Cycle method.  According to the Ruby Documentation, "An Enumerable provides a collection of classes with several traversal and searching methods, in addition an Enumerable can sort."  What does this mean?  If you have a container of information, an array can be an example of a container of information.  If you are unsure of what an array is, please refer to previous blog posts.  To continue, if we have an array of information and need to move THROUGH the array according to some logic, we would want to use an enumerable.
+
+    </p>
+
+    <p>
+      Why would we use the Enumerable#Cycle method?  The Cycle method allows you to run through the container of information FOREVER, or a certain amount of times if you give the Enumerable a positive integer input of how many times you want to run through your code after you declare the Cycle method.
+     <br>
+      For Example:<br>
+      If you have an array <br><br><strong><code>array = [1,2,3,4]</code></br></br></strong>
+      and you want to run through the numbers <em>n</em> times. We can use the Enumerable#Cycle method<br></br>
+
+      <strong><code>array.cycle(2) {|number| puts number}</code></strong><br><br>
+      Here we are telling the Cycle method to run through the array 2 times, then in our code block (everything between the <strong>{}</strong> is our code block) to put number which is the number the enumerable is on, to the print the number to the console.  Get it? Got it? Good.<br></br>
+      This would be what the terminal would output for us:<br></br>
+      <strong><code>
+        1 2 3 4 1 2 3 4
+      </code><br></strong>
+    </p>
+
+    <p>
+     Now that we have a foundation with the Enumerable, things are about to get a little more complicated.  With respect to the Cycle method, an Enumerable will run FOREVER until nil is given to the code block.  Also, if the container of information is empty or the number given to the Enumerable is a non-positive integer, the Enumerable does NOTHING. <br></br>The code for this case would look something like this:<br></br>
+      <strong><code>array.cycle(-1) {|number| puts number}</code></strong>  -> Would return "nil"<br></br>
+      But if we want the program to run FOREVER we would run something like this:<br></br>
+      <strong><code>array.cycle {|number| puts number}</code></strong>
+    </p>
+
+    <p>
+      I hope by reading this blog post you will now be equipped to use an Enumerable in your next ruby adventure.
+    </p>
+
+    <p>
+      <strong>Thanks for reading!<br></br>
+
+      -Scott<strong>
+    </p>
+
+  </section>
+</main>
