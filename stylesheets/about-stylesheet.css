@@ -1,0 +1,23 @@
+*{
+  background-color:#EDEAED;
+  font-family:lucida console;
+}
+
+h1{
+  text-align: center;
+}
+
+a{
+  text-decoration: none;
+  color:black;
+}
+
+a:hover{
+
+color:#aaf0d1;
+}
+
+p{
+
+  margin-top: 2em;
+}
