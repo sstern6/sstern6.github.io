@@ -21,3 +21,19 @@ p{
 
   margin-top: 2em;
 }
+
+footer{
+  text-align: center;
+}
+
+i:hover{
+  color:#a8a8a8;
+}
+
+i.fa.fa-github-square.fa-3x {
+margin-right: 1.5em;
+}
+
+i.fa.fa-linkedin-square.fa-3x {
+margin-right: 1.5em;
+}
