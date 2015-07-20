@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ruby Classes</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="../stylesheets/blog.css">
+</head>
+
+<h1>Ruby Classes</h1>
+
+<p>Let's start with an example of a simple class in ruby:</p>
+<code>
+
+  class Calc<br></br>
+
+    &nbspdef initialize(number_1,number_2)<br>
+      &nbsp&nbsp@number_1 = number_1<br>
+      &nbsp&nbsp@number_2 = number_2<br>
+    &nbspend<br></br>
+
+    &nbsp def add<br>
+    &nbsp&nbsp puts @number_1 + @number_2<br>
+    &nbspend<br></br>
+
+    &nbspdef subtract<br>
+    &nbsp&nbsp puts @number_1 - @number_2<br>
+    &nbspend<br></br>
+
+    &nbspdef multiply<br>
+    &nbsp&nbsp puts @number_1 * @number_2<br>
+    &nbspend<br></br>
+
+    &nbspdef divide<br>
+    &nbsp&nbsp puts @number_1.to_f / @number_2<br>
+    &nbspend<br></br>
+
+  end<br></br>
+  calculator = Calc.new(4,3)<br>
+  calculator.add  => 7 <br>
+  calculator.subtract  => 1 <br>
+  calculator.multiply  => 12<br>
+  calcultor.divide  => 1.33<br>
+</code>
+
+<p>Here's why we use an instance method and instance varibables in this class:</p>
+
+<p>
+  With this very basic class in ruby, I've decided to make a calculator, which was the simplest example I was shown when I first started ruby to wrap my mind around a few simple concepts.  Calculator's don't do 1 thing right?! They do a lot of different things when the calculator is given numbers.  A calculator can add, subtract, multiply, divide, and do A LOT more.  But for this example I am just going to stick with the basics.
+</p>
+
+<p>  I used a method above called "initialize", this method is called an instance method, and every time I create a new calculator object using Calc.new(any number,any number), I then create a new instance for that object that is expecting 2 arguments.  Within my instance method I have instance variables.  In this case with the Calc method, our instance variables are @number_1 and @number_2.  The difference between instance variables and local variables are that instance variables are bound to the instance of their class, and is made available to all of the methods within the object.  Local variables can only be used within the method the variable is declared.  Local variables do not have a symbol as the prefix to the name.  Instance variables have the "@" before the name to tell ruby it is an instance variable.  Using instance variables and methods allow you to make an object with many functionalities when specific values associated with the object get passed through. With my Calc class, I will want to pass in 2 numbers as my instance arguments, which will allow me to generate answers for a simple calculator.  You are not restricted to 2 arguments, you can put as many as you want.
+</p>
+
+<p>
+  I hope this clarified Classes, Instance Methods, and Instance Variables!
+</p>
+
+<p>-Scott</p>
+
+
+
+</html>
