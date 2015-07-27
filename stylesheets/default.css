@@ -60,6 +60,14 @@ a{
   margin-right: 4em;
 }
 
+#e{
+  display: inline-block;
+  border-right: 2px solid black;
+  padding-right: 3em;
+  margin-right: 4em;
+}
+
+
 footer{
   text-align: center;
   margin-top: 8em;
