@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html>
   <head>
   <meta charset="UTF-8">
@@ -6,58 +7,88 @@
   <title>Cheat Sheet</title>
   </head>
 
-    <header>
-      <h1></h1>
-    </header>
+  <header>
+    <h1>JavaScript objects manipulation and notation</h1>
+  </header>
 
-    <body>
+  <body>
 
-   <div id ="left">
-           <h3> Creating an object</h3>
-               <ul>
-                   <li>Create an empty object:</li>
-                      <li> var object = {}; </li>
-                   <li>Add properties and values to an object:</li>
-                      <li>var object = {foo: 1,"bar": "some string",};</li>
-               </ul>
-           <h3>Object syntax </h3>
-               <ul>
-                   <li>Object implicit syntax</li>
-                        <li>implicit_form = {"Property 1" => "Value 1",}</li>
-                    <li>Object alternate syntax</li>
-                        <li>alternate_form = {
-                          Property_1: "Value 1",
-                          }</li>
+    <div id ="left">
+      <h3> Creating an object</h3>
+        <ul>
+          <li>Create an empty object:</li>
+          <div id="space"></div>
+          <!-- HTML generated using hilite.me -->
+          <div style="background: #272822; overflow:auto;width:auto;border:solid gray;border-width:.4em 0.4em 0.4em .4em;padding:.8em .8em;"><pre style="margin: 0; line-height: 100%"><span style="color: #66d9ef">var</span> <span style="color: #a6e22e">object</span> <span style="color: #f92672">=</span> <span style="color: #f8f8f2">{};</span>
+          </pre></div>
+          <li>Add properties and values to an object:</li>
+          <!-- HTML generated using hilite.me -->
+          <div style="background: #272822; overflow:auto;width:auto;border:solid gray;border-width:.4em 0.4em 0.4em .4em;padding:.8em .8em;"><pre style="margin: 0; line-height: 125%"><span style="color: #66d9ef">var</span> <span style="color: #a6e22e">object</span> <span style="color: #f92672">=</span> <span style="color: #f8f8f2">{</span> <span style="color: #a6e22e">foo</span><span style="color: #f92672">:</span> <span style="color: #ae81ff">1</span><span style="color: #f8f8f2">,</span>
+          <span style="color: #e6db74">&quot;bar&quot;</span><span style="color: #f92672">:</span> <span style="color: #e6db74">&quot;some string&quot;</span>
+          <span style="color: #f8f8f2">};</span>
+          </pre></div>
+
+
+
+
+        </ul>
+      <h3>Object syntax </h3>
+        <ul>
+          <li>Object implicit syntax</li>
+          <!-- HTML generated using hilite.me --><div style="background: #272822; overflow:auto;width:auto;border:solid gray;border-width:.4em 0.4em 0.4em .4em;padding:.8em .8em;"><pre style="margin: 0; line-height: 125%"><span style="color: #a6e22e">implicit_form</span> <span style="color: #f92672">=</span> <span style="color: #f8f8f2">{</span><span style="color: #e6db74">&quot;Property 1&quot;</span> <span style="color: #f92672">=&gt;</span> <span style="color: #e6db74">&quot;Value 1&quot;</span><span style="color: #f8f8f2">,</span>
+          <span style="color: #f8f8f2">}</span>
+          </pre></div>
+
+          <li>Object alternate syntax</li>
+          <!-- HTML generated using hilite.me -->
+          <div style="background: #272822; overflow:auto;width:auto;border:solid gray;border-width:.4em 0.4em 0.4em .4em;padding:.8em .8em;"><pre style="margin: 0; line-height: 125%"><span style="color: #a6e22e">alternate_form</span> <span style="color: #f92672">=</span> <span style="color: #f8f8f2">{</span> <span style="color: #a6e22e">Property_1</span><span style="color: #f92672">:</span> <span style="color: #e6db74">&quot;Value 1&quot;</span><span style="color: #f8f8f2">,</span>
+          <span style="color: #f8f8f2">}</span>
+          </pre></div>
 
     </div>
 
     <div id ="right">
+      <h3>Accessing properties</h3>
+        <ul>
+          <li>Access first value of object using dot notation:</li>
+          <!-- HTML generated using hilite.me --><div style="background: #272822; overflow:auto;width:auto;border:solid gray;border-width:.4em 0.4em 0.4em .4em;padding:.8em .8em;"><pre style="margin: 0; line-height: 125%"><span style="color: #a6e22e">object</span><span style="color: #f8f8f2">.</span><span style="color: #a6e22e">foo</span>
+          <span style="color: #75715e">//1</span>
+          </pre></div>
 
-           <h3>Accessing properties</h3>
-               <ul>
-                   <li>Access first value of object using dot notation:</li>
-                      <li>object.foo => //1</li>
-               </ul>
+        </ul>
+      <h3>Nested properties</h3>
+        <ul>
+          <li>Create nested object:</li>
+          <!-- HTML generated using hilite.me --><div style="background: #272822; overflow:auto;width:auto;border:solid gray;border-width:.4em 0.4em 0.4em .4em;padding:.8em .8em;"><pre style="margin: 0; line-height: 125%"><span style="color: #66d9ef">var</span> <span style="color: #a6e22e">objectNested</span> <span style="color: #f92672">=</span> <span style="color: #f8f8f2">{</span> <span style="color: #a6e22e">baz</span><span style="color: #f92672">:</span>
+          <span style="color: #f8f8f2">{</span> <span style="color: #a6e22e">foo</span><span style="color: #f92672">:</span>
+          <span style="color: #f8f8f2">{</span> <span style="color: #a6e22e">bar</span><span style="color: #f92672">:</span> <span style="color: #ae81ff">5</span>
+          <span style="color: #f8f8f2">}</span>
+          <span style="color: #f8f8f2">}</span>
+          <span style="color: #f8f8f2">};</span>
+          </pre></div>
 
+          <li>Access the 5 value of objectNested:</li>
+          <!-- HTML generated using hilite.me --><div style="background: #272822; overflow:auto;width:auto;border:solid gray;border-width:.4em 0.4em 0.4em .4em;padding:.8em .8em;"><pre style="margin: 0; line-height: 125%"><span style="color: #a6e22e">object</span><span style="color: #f8f8f2">.</span><span style="color: #a6e22e">baz</span><span style="color: #f8f8f2">.</span><span style="color: #a6e22e">foo</span><span style="color: #f8f8f2">.</span><span style="color: #a6e22e">bar</span><span style="color: #f8f8f2">;</span>
+          <span style="color: #75715e">//5</span>
+          </pre></div>
 
-
-                 <h3>Nested properties</h3>
-               <ul>
-                   <li>Create nested object:</li>
-                    <li>var objectNested = {
-                                      baz: {
-                                      foo: {
-                                      bar: 5
-                                      }
-                                      }
-                                      };</li>
-               </ul>
+        </ul>
     </div>
 
   </body>
 
   <footer>
-
+    <h1>Key takeaways and reference links</h1>
+      <ol>
+        <li>Objects and nested objects properties can be accessed using 2 syntaxes, the most common is the dot notation:</li>
+        <li>object.foo;</li>
+        <li>object.baz.foo.bar;</li>
+      </ol>
+    <h3>To go further:</h3>
+      <ul>
+        <li><a href="developer.mozilla.org/en-US/docs/Web/JavaScript">Mozilla Developer Network' JavaScript Documentation</a></li>
+        <li><a href="sitepoint.com/back-to-basics-javascript-object-syntax/">A great article on JavaScript objects</a></li>
+      </ul>
   </footer>
 
-  </html>
+</html>
