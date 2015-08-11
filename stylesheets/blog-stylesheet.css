@@ -2,12 +2,13 @@
   font-family:sans-serif;
 }
 
-header{
+h1{
   text-align: center;
 }
 
+
 h3{
-margin-top: 5em;
+  margin-top: 3em;
 }
 
 h3:hover{
@@ -19,13 +20,14 @@ main h5{
   margin-top: 40px;
 }
 
-a {
+a{
   color:black;
 }
 
 p{
   text-align: left;
   margin-top: 4em;
+  position: relative;
 }
 
 a:hover{

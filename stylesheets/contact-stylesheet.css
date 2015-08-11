@@ -8,6 +8,10 @@ a{
   text-decoration: none;
 }
 
+a:hover{
+  color:#a8a8a8;
+}
+
 h3:visited{
   color: #aaf0d1;
 }
@@ -30,6 +34,24 @@ h3 {
   margin-top:5em;
 
 
+}
+
+header{
+  text-align: center;
+  background-color: #aaf0d1;
+  position: static;
+
+}
+
+#home{
+  display: inline-block;
+  margin-right: 15em;
+  font-weight: bold;
+}
+
+#contact{
+  display: inline-block;
+  font-weight: bold;
 }
 
 
