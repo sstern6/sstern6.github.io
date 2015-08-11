@@ -36,3 +36,21 @@ margin-right: 1.5em;
 i.fa.fa-linkedin-square.fa-3x {
 margin-right: 1.5em;
 }
+
+header{
+  text-align: center;
+  background-color: #aaf0d1;
+  position: static;
+
+}
+
+#home{
+  display: inline-block;
+  margin-right: 15em;
+  font-weight: bold;
+}
+
+#contact{
+  display: inline-block;
+  font-weight: bold;
+}
