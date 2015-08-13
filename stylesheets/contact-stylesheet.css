@@ -33,11 +33,10 @@ h3 {
   text-align: center;
   margin-top:5em;
 
-
 }
 
 header{
-  text-align: center;
+  text-align: right;
   background-color: #aaf0d1;
   position: static;
 
@@ -45,13 +44,25 @@ header{
 
 #home{
   display: inline-block;
-  margin-right: 15em;
+  margin-right: 1em;
   font-weight: bold;
 }
 
-#contact{
+#about{
+  display: inline-block;
+  font-weight: bold;
+  margin-right: 1em;
+}
+
+#projects{
+  display: inline-block;
+  font-weight: bold;
+  margin-right: 1em;
+}
+
+#blog{
+  margin-right: 2em;
   display: inline-block;
   font-weight: bold;
 }
-
 
