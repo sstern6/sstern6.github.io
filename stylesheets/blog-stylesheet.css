@@ -22,6 +22,7 @@ main h5{
 
 a{
   color:black;
+  text-decoration: none;
 }
 
 p{
@@ -32,6 +33,41 @@ p{
 
 a:hover{
   color:#a8a8a8;
+}
+
+header{
+  text-align: right;
+/*  margin-right: 2em;*/
+  background-color: #aaf0d1;
+  position: static;
+
+}
+
+
+#home{
+  display: inline-block;
+  margin-right: 1em;
+  font-weight: bold;
+}
+
+#contact{
+  display: inline-block;
+  font-weight: bold;
+  margin-right: 1em;
+}
+
+
+
+#about{
+  margin-right: 1em;
+  display: inline-block;
+  font-weight: bold;
+}
+
+#projects{
+  display: inline-block;
+  font-weight: bold;
+  margin-right: 2em;
 }
 
 
