@@ -76,3 +76,8 @@ header{
   display: inline-block;
   font-weight: bold;
 }
+
+body{
+  margin-right: 2em;
+  margin-left: 2em;
+}
