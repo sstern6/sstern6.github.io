@@ -1,4 +1,4 @@
-*{
+  *{
   font-family:sans-serif;
   margin-left: 10px;
   margin-right: 10px;
@@ -9,12 +9,12 @@ h1{
 }
 
 h3{
-  margin-bottom: -15px;
+  margin-bottom: -30px;
 }
 
 
 h3:hover{
-  color:#aaf0d1;
+  color:#a8a8a8;
 }
 
 a{
@@ -24,9 +24,9 @@ a{
 
 p{
   text-align: left;
-  margin-top: -15px;
-  position: relative;
+  margin-top: -20px;
 }
+
 
 a:hover{
   color:#a8a8a8;
@@ -34,14 +34,14 @@ a:hover{
 
 header{
   text-align: right;
-/*  margin-right: 2em;*/
   background-color: #aaf0d1;
-  position: static;
+  margin-top: 30px;
 
 }
 
 
 #home{
+  margin: auto;
   display: inline-block;
   margin-right: 1em;
   font-weight: bold;
